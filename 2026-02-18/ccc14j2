@@ -1,1 +1,10 @@
-
+a=input()
+nv=input()
+countA=nv.count("A")
+countB=nv.count("B")
+if countA>countB:
+    print("A")
+elif countA<countB:
+    print("B")
+elif countA==countB:
+    print("Tie")
