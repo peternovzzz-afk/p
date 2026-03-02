@@ -1,4 +1,4 @@
-a.peter zhang
+a.My name is peter zhang
 
 b.I learned when deal with string data type,".count" could be very efficient,It developed me used to use "if" "elif" "else" .
 
