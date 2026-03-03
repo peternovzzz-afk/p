@@ -1,0 +1,16 @@
+n = int(input())
+
+def winner():
+    pass
+maxa=-1
+
+for i in range(n):
+    name = input()
+    bid = int(input())
+
+    if bid > maxa:
+        maxa = bid
+        winner = name
+
+print(winner)
+
