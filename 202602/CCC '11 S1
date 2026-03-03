@@ -1,0 +1,18 @@
+n = int(input())
+
+t_count = 0#count start from zero
+s_count = 0#count start from zero
+
+for i in range(n):
+    line = input()
+    
+    for char in line:
+        if char == 't' or char == 'T':
+            t_count += 1
+        elif char == 's' or char == 'S':
+            s_count += 1
+
+if t_count > s_count:
+    print("English")
+else:
+    print("French")
