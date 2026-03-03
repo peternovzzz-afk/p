@@ -1,1 +1,7 @@
+a=int(input())
+b=int(input())
 
+for i in range(a,b+1,1):
+    if (i-a)% 2==0 and (i-a)% 3==0 and (i-a)% 4==0 and (i-a)% 5==0:
+       print("All positions change in year",i)
+    
