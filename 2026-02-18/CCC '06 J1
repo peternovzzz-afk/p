@@ -1,0 +1,13 @@
+a=int(input())
+burger=[461,431,420,0]
+
+b=int(input())
+side=[100,57,70,0]
+
+c=int(input())
+drink=[130,160,118,0]
+
+d=int(input())
+dessert=[167,266,75,0]
+    
+print("Your total Calorie count is {}.".format(burger[a-1] + side[b-1] + drink[c-1] + dessert[d-1]))
