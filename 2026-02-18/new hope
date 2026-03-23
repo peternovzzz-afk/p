@@ -1,0 +1,6 @@
+n=int(input())
+a="far, "
+
+
+print("A long time ago in a galaxy " + a * (n-1) + "far away...")
+
