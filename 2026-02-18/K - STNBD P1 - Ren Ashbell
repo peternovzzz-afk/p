@@ -1,0 +1,15 @@
+n = int(input())
+
+ren = int(input())
+
+is_strongest = True
+
+for _ in range(n - 1):
+    power = int(input())
+    if power >= ren:
+        is_strongest = False
+
+if is_strongest:
+    print("YES")
+else:
+    print("NO")
