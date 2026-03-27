@@ -1,0 +1,11 @@
+avg = int(input())
+n = int(input())
+
+x = 80 * (n + 1) - avg * n
+
+if x > 100:
+    print(-1)
+elif x < 0:
+    print(0)
+else:
+    print(x)
