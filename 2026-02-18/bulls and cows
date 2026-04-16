@@ -1,0 +1,31 @@
+#Secret code (you can change it later)
+secret = [1, 2, 3, 4]
+#Game loop
+while True:
+    print("Enter your guess (4 digits):")
+    g1 = int(input()) 
+    g2 = int(input()) 
+    g3 = int(input()) 
+    g4 = int(input()) 
+    guess = [g1, g2, g3, g4] 
+    bulls = 0 
+    cows = 0 
+    nofc=0
+    # TODO: count bulls # Example: compare positions 
+    for i in range(4):
+        if secret[i]== guess[i]:
+            bulls=bulls+1
+            
+    # TODO: count cows 
+    for i in range(4):
+        if guess[i] in secret:
+            nofc=nofc+1
+    cows =nofc-bulls
+        
+        
+    # Hint: number exists in secret but not in same position 
+    print("Bulls:", bulls) 
+    print("Cows:", cows)
+    break 
+if bulls == 4 :
+    print("win")
